@@ -7,6 +7,8 @@
 
 for path in `ls -d $1*`
 do
+    echo '\n'$path
+    echo '-------------'
     svn up $path
 done
 
